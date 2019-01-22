@@ -1,9 +1,18 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "async-await-demo1": "ts-node async-await-demo.ts",
+    "async-await-demo2": "ts-node -r trace -r clarify async-await-demo.ts",
+    "function-generator-demo": "ts-node function-generator-demo"
   },
   "devDependencies": {
+    "@types/node": "10.12.18",
     "ts-node": "7.0.1",
     "typescript": "3.2.2"
+  },
+  "dependencies": {
+    "clarify": "2.1.0",
+    "co": "4.6.0",
+    "longjohn": "0.2.12",
+    "trace": "3.1.1"
   }
 }

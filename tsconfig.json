@@ -8,7 +8,5 @@
     "preserveConstEnums": true,
     "sourceMap": true
   },
-  "files": [
-    "hello.ts"
-  ]
+  "files": ["aaa.ts"]
 }
