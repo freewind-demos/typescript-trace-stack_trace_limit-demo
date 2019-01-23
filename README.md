@@ -7,7 +7,11 @@ Note:
 to error stack messages.
 
 2. Use `node -r ts-node/register --stack_trace_limit=5` works, but I can't find a way to
-make `ts-node --stack_trace_limit=5` work.
+make `ts-node --stack_trace_limit=5` work. From <https://www.npmjs.com/package/ts-node>,
+we can see it's not possible:
+
+> Note: If you need to use advanced node.js CLI arguments (e.g. --inspect),
+> use them with node -r ts-node/register instead of the ts-node CLI.
 
 ```
 npm install
