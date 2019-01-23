@@ -7,6 +7,5 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true
-  },
-  "files": ["aaa.ts"]
+  }
 }
