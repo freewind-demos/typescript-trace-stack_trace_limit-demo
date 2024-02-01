@@ -1,14 +1,14 @@
 {
-    "scripts": {
-        "start": "node -r ts-node/register -r trace -r clarify --stack_trace_limit=5 async-await-demo.ts"
-    },
-    "devDependencies": {
-        "@types/node": "10.12.18",
-        "ts-node": "7.0.1",
-        "typescript": "3.2.2"
-    },
-    "dependencies": {
-        "clarify": "2.1.0",
-        "trace": "3.1.1"
-    }
+  "scripts": {
+    "start": "node -r ts-node/register -r trace -r clarify --stack_trace_limit=5 async-await-demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "10.12.18",
+    "ts-node": "7.0.1",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "clarify": "2.1.0",
+    "trace": "3.1.1"
+  }
 }
